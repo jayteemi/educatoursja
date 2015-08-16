@@ -1,6 +1,6 @@
 {
     "cancel": "キャンセル",
-    "cannotconnect": "接続できません：正しいURLを入力しているか、サイトのMoodleが2.4以降であることを確認してください。",
+    "cannotconnect": "接続できません：正しいURLを入力しているか、サイトのmoodleが2.4以降であることを確認してください。",
     "completion-alt-auto-fail": "完了: {{$a}} (合格点未到達)",
     "completion-alt-auto-n": "未完了: {{$a}}",
     "completion-alt-auto-pass": "完了: {{$a}} (合格点到達)",

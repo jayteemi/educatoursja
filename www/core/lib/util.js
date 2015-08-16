@@ -239,8 +239,8 @@ angular.module('mm.core')
         };
 
         /**
-         * Generic function for adding the wstoken to Moodle urls and for pointing to the correct script.
-         * For download remote files from Moodle we need to use the special /webservice/pluginfile passing
+         * Generic function for adding the wstoken to moodle urls and for pointing to the correct script.
+         * For download remote files from moodle we need to use the special /webservice/pluginfile passing
          * the ws token as a get parameter.
          *
          * @module mm.core
@@ -556,11 +556,11 @@ angular.module('mm.core')
         };
 
         /**
-         * Returns the URL to the documentation of the app, based on Moodle version and current language.
+         * Returns the URL to the documentation of the app, based on moodle version and current language.
          *
-         * @param {String} [release] Moodle release.
+         * @param {String} [release] moodle release.
          * @param {String} [page]    Docs page to go to.
-         * @return {Promise}         Promise resolved with the Moodle docs URL.
+         * @return {Promise}         Promise resolved with the moodle docs URL.
          */
         self.getDocsUrl = function(release, page) {
             page = page || 'Mobile_app';

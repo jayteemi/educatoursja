@@ -1,6 +1,6 @@
 {
     "cancel": "Annuler",
-    "cannotconnect": "Connexion impossible : vérifiez que l'URL a été saisie correctement et que votre site utilise Moodle 2.4 ou ultérieur.",
+    "cannotconnect": "Connexion impossible : vérifiez que l'URL a été saisie correctement et que votre site utilise moodle 2.4 ou ultérieur.",
     "clearsearch": "Effacer la recherche",
     "completion-alt-auto-fail": "Terminé : {{$a}} (n'a pas atteint la note pour passer)",
     "completion-alt-auto-n": "Non terminé : {{$a}}",

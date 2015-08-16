@@ -203,7 +203,7 @@ angular.module('mm.core')
         var candidateSite = $mmSitesFactory.makeSite(undefined, siteurl, token);
 
         return candidateSite.fetchSiteInfo().then(function(infos) {
-            if (isValidMoodleVersion(infos.functions)) {
+            if (isValidmoodleVersion(infos.functions)) {
                 if (isValidInfo(infos)) {
                     var siteid = self.createSiteID(infos.siteurl, infos.username);
                     // Add site to sites list.
@@ -264,13 +264,13 @@ angular.module('mm.core')
     }
 
     /**
-     * Check for the minimum required version. We check for WebServices present, not for Moodle version.
+     * Check for the minimum required version. We check for WebServices present, not for moodle version.
      * This may allow some hacks like using local plugins for adding missing functions in previous versions.
      *
-     * @param {Array} sitefunctions List of functions of the Moodle site.
+     * @param {Array} sitefunctions List of functions of the moodle site.
      * @return {Boolean}            True if the moodle version is valid, false otherwise.
      */
-    function isValidMoodleVersion(sitefunctions) {
+    function isValidmoodleVersion(sitefunctions) {
         for(var i = 0; i < sitefunctions.length; i++) {
             if (sitefunctions[i].name.indexOf("component_strings") > -1) {
                 return true;
@@ -325,7 +325,7 @@ angular.module('mm.core')
             currentSite = site;
             self.login(siteid);
 
-            // Check if local_mobile was installed to Moodle.
+            // Check if local_mobile was installed to moodle.
             return site.checkIfLocalMobileInstalledAndNotUsed().then(function() {
                 // Local mobile was added. Throw invalid session to force reconnect and create a new token.
                 $mmEvents.trigger(mmCoreEventSessionExpired, siteid);

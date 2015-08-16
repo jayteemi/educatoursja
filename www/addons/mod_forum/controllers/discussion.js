@@ -41,7 +41,7 @@ angular.module('mm.addons.mod_forum')
     }
 
     fetchPosts().then(function() {
-        // Add log in Moodle.
+        // Add log in moodle.
         $mmSite.write('mod_forum_view_forum_discussion', {
             discussionid: discussionid
         });

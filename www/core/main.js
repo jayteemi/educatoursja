@@ -68,7 +68,7 @@ angular.module('mm.core', ['pascalprecht.translate'])
                 $scope.$on('$ionicView.enter', function() {
                     if ($mmSite.isLoggedIn()) {
                         if ($stateParams.siteid && $stateParams.siteid != $mmSite.getId()) {
-                            // Notification belongs to a different site. Change site.
+                            // Notification belongs to a different site. Change Account.
                             $mmSitesManager.logout().then(function() {
                                 loadSiteAndGo();
                             });

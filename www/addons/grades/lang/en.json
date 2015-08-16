@@ -2,13 +2,13 @@
     "average": "Average",
     "contributiontocoursetotal": "Contribution to course total",
     "feedback": "Feedback",
-    "grade": "Grade",
-    "grades": "Grades",
-    "itemname": "Grade item",
+    "grade": "Point",
+    "grades": "Points",
+    "itemname": "Point item",
     "lettergrade": "Letter grade",
     "percentage": "Percentage",
     "rank": "Rank",
     "range": "Range",
-    "viewgrades": "View grades",
+    "viewgrades": "View points",
     "weight": "Weight"
 }

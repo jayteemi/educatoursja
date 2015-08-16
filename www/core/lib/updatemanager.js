@@ -88,7 +88,7 @@ angular.module('mm.core')
     }
 
     /**
-     * Migrate MoodleMobile 1 sites to MoodleMobile 2.
+     * Migrate moodleMobile 1 sites to moodleMobile 2.
      *
      * @return {Promise} Promise resolved when the sites are migrated.
      */
@@ -100,7 +100,7 @@ angular.module('mm.core')
             sites = sites.split(',');
 
             angular.forEach(sites, function(siteid) {
-                $log.debug('Migrating site from MoodleMobile 1: ' + siteid);
+                $log.debug('Migrating site from moodleMobile 1: ' + siteid);
                 var site = localStorage.getItem('sites-'+siteid),
                     infos;
 

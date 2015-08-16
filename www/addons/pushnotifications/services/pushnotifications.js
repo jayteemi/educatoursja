@@ -73,7 +73,7 @@ angular.module('mm.addons.pushnotifications')
             case 'registered':
                 if (notification.regid.length > 0) {
                     pushID = notification.regid;
-                    return self.registerDeviceOnMoodle();
+                    return self.registerDeviceOnmoodle();
                 } else {
                     $log.debug('Device NOT registered in GCM, invalid regid');
                     break;
@@ -150,8 +150,8 @@ angular.module('mm.addons.pushnotifications')
 
     /**
      * Register a device in Apple APNS (Apple Push Notificaiton System) using the Phonegap PushPlugin.
-     * It also registers the device in the Moodle site using the core_user_add_user_device WebService.
-     * We need the device registered in Moodle so we can connect the device with the message output Moode plugin airnotifier.
+     * It also registers the device in the moodle site using the core_user_add_user_device WebService.
+     * We need the device registered in moodle so we can connect the device with the message output Moode plugin airnotifier.
      *
      * @module mm.addons.pushnotifications
      * @ngdoc method
@@ -167,7 +167,7 @@ angular.module('mm.addons.pushnotifications')
         };
         return $cordovaPush.register(options).then(function(token) {
             pushID = token;
-            return self.registerDeviceOnMoodle();
+            return self.registerDeviceOnmoodle();
         }, function(error) {
             return $q.reject();
         });
@@ -191,15 +191,15 @@ angular.module('mm.addons.pushnotifications')
     };
 
     /**
-     * Registers a device on current Moodle site.
+     * Registers a device on current moodle site.
      *
      * @module mm.addons.pushnotifications
      * @ngdoc method
-     * @name $mmaPushNotifications#registerDeviceOnMoodle
+     * @name $mmaPushNotifications#registerDeviceOnmoodle
      * @return {Promise}      Promise resolved when device is registered.
      */
-    self.registerDeviceOnMoodle = function() {
-        $log.debug('Register device on Moodle.');
+    self.registerDeviceOnmoodle = function() {
+        $log.debug('Register device on moodle.');
 
         if (!$mmSite.isLoggedIn() || !pushID) {
             return $q.reject();

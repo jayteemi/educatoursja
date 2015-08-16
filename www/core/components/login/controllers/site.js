@@ -24,8 +24,8 @@ angular.module('mm.core.login')
 .controller('mmLoginSiteCtrl', function($scope, $state, $mmSitesManager, $mmUtil, $translate, $ionicHistory,
         $ionicModal, $mmLoginHelper) {
 
-    $scope.siteurl = '';
-    $scope.isInvalidUrl = true;
+    $scope.siteurl = 'app.educatoursja.com';
+    $scope.isInvalidUrl = false;
 
     $scope.validate = function(url) {
         if (!url) {

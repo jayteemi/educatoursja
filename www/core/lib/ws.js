@@ -127,7 +127,7 @@ angular.module('mm.core')
     }
 
     /**
-     * Downloads a file from Moodle using Cordova File API.
+     * Downloads a file from moodle using Cordova File API.
      * @todo Use Web Workers.
      *
      * @param {String}   url        Download url.

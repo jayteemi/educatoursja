@@ -35,7 +35,7 @@ angular.module('mm.addons.mod_imscp')
      */
     self.isEnabled = function() {
         var version = $mmSite.getInfo().version;
-        // Require Moodle 2.9.
+        // Require moodle 2.9.
         return version && (parseInt(version) >= 2015051100);
     };
 

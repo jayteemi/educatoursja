@@ -1,6 +1,6 @@
 {
     "cancel": "Anuluj",
-    "cannotconnect": "Nie można się połączyć: Sprawdź, czy wpisałeś poprawyny adres URL i twoja strona używa Moodle 2.4 lub nowsze.",
+    "cannotconnect": "Nie można się połączyć: Sprawdź, czy wpisałeś poprawyny adres URL i twoja strona używa moodle 2.4 lub nowsze.",
     "completion-alt-auto-fail": "Ukończone: {{$a}} (bez pozytywnej oceny)",
     "completion-alt-auto-n": "Nie ukończone: {{$a}}",
     "completion-alt-auto-pass": "Ukończone: {{$a}} (z pozytywną oceną)",

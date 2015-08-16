@@ -42,16 +42,21 @@ angular.module('mm.core.login', [])
         controller: 'mmLoginSitesCtrl',
         onEnter: function($state, $mmSitesManager) {
             // Skip this page if there are no sites yet.
-            $mmSitesManager.hasNoSites().then(function() {
+            $state.go('mm_login.site');
+            /*$mmSitesManager.hasNoSites().then(function() {
                 $state.go('mm_login.site');
-            });
+            });*/
         }
     })
 
     .state('mm_login.site', {
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
-        controller: 'mmLoginSiteCtrl'
+        controller: 'mmLoginSiteCtrl',
+        onEnter: function($ionicNavBarDelegate, $ionicHistory,$mmSitesManager,$state){
+            $state.go('mm_login.credentials', {siteurl: 'http://app.educatoursja.com'});
+        }
+
     })
 
     .state('mm_login.credentials', {

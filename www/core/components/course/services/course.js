@@ -132,7 +132,7 @@ angular.module('mm.core.course')
     }
 
     /**
-     * Get a module from Moodle.
+     * Get a module from moodle.
      *
      * @module mm.core.course
      * @ngdoc method

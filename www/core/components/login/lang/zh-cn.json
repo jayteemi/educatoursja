@@ -4,7 +4,7 @@
     "connect": "连接",
     "help": "帮助",
     "invalidaccount": "请检查您的登录信息，或请您的网站管理员检查网站设置。",
-    "invalidmoodleversion": "无效的Moodle版本。最低版本要求是：",
+    "invalidmoodleversion": "无效的moodle版本。最低版本要求是：",
     "invalidsite": "网站URL是无效的。",
     "login": "登录",
     "logininsiterequired": "您需要在浏览器窗口中登录该站点。",

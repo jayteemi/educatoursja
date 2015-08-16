@@ -1,6 +1,6 @@
 {
     "cancel": "Vazgeç",
-    "cannotconnect": "Bağlantı kurulamıyor: Doğru adres girdiğinizden ve sitenizin Moodle 2.4 ve sonrası sürüme sahip olduğundan emin olun.",
+    "cannotconnect": "Bağlantı kurulamıyor: Doğru adres girdiğinizden ve sitenizin moodle 2.4 ve sonrası sürüme sahip olduğundan emin olun.",
     "completion-alt-auto-fail": "Tamamlandı (geçer not almayı başaramadı)",
     "completion-alt-auto-n": "Tamamlanmadı",
     "completion-alt-auto-pass": "Tamamlandı (geçer not almayı başardı)",

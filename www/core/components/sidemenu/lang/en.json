@@ -1,7 +1,7 @@
 {
     "appsettings": "App settings",
     "help": "Help",
-    "logout": "Change site",
-    "mycourses": "My courses",
+    "logout": "Change Account",
+    "mycourses": "My tours",
     "website": "Website"
 }

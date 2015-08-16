@@ -1,6 +1,6 @@
 {
     "cancel": "Cancelar",
-    "cannotconnect": "No se puede conectar: Verifique que la URL es correcta y que el sitio Moodle usa la versión 2.4 o posterior.",
+    "cannotconnect": "No se puede conectar: Verifique que la URL es correcta y que el sitio moodle usa la versión 2.4 o posterior.",
     "completion-alt-auto-fail": "Finalizado {{$a}} (no ha alcanzado la calificación de aprobado)",
     "completion-alt-auto-n": "Sin finalizar: {{$a}}",
     "completion-alt-auto-pass": "Finalizado: {{$a}} (ha alcanzado la calificación de aprobado)",

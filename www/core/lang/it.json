@@ -1,6 +1,6 @@
 {
     "cancel": "Annulla",
-    "cannotconnect": "Impossibile connettersi: verificare che l'URL sia corretto e che il sito usi Moodle 2.4 o versioni successive.",
+    "cannotconnect": "Impossibile connettersi: verificare che l'URL sia corretto e che il sito usi moodle 2.4 o versioni successive.",
     "clearsearch": "Pulisci la ricerca",
     "completion-alt-auto-fail": "Completato: {{$a}} (senza raggiungere la sufficienza)",
     "completion-alt-auto-n": "Non completata: {{$a}}",

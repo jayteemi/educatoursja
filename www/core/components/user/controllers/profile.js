@@ -59,7 +59,7 @@ angular.module('mm.core.user')
     }
 
     fetchUserData().then(function() {
-        // Add log in Moodle.
+        // Add log in moodle.
         $mmSite.write('core_user_view_user_profile', {
             userid: userid,
             courseid: courseid

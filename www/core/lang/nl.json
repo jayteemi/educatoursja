@@ -1,6 +1,6 @@
 {
     "cancel": "Annuleer",
-    "cannotconnect": "Kan niet verbinden: controleer of je de URL juist hebt ingegeven en dat je site Moodle 2.4 of recenter gebruikt.",
+    "cannotconnect": "Kan niet verbinden: controleer of je de URL juist hebt ingegeven en dat je site moodle 2.4 of recenter gebruikt.",
     "clearsearch": "Zoekresultaten leegmaken",
     "completion-alt-auto-fail": "Voltooid:  {{$a}}  (bereikte het cijfer voor geslaagd niet)",
     "completion-alt-auto-n": "Niet voltooid: {{$a}}",

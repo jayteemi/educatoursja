@@ -1,6 +1,6 @@
 {
-    "about": "Über Moodle Mobile",
-    "appname": "Moodle Mobile {{version}}",
+    "about": "Über moodle Mobile",
+    "appname": "moodle Mobile {{version}}",
     "cacheexpirationtime": "Cache-Dauer (Millisekunden)",
     "credits": "Dank",
     "deletesitefiles": "Möchten Sie wirklich alle von dieser Website geladenen Dateien löschen?",
